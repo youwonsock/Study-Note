@@ -13,51 +13,51 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\연습문제">
-      <UniqueIdentifier>{77de2115-1f36-486b-a2e7-b083837d030d}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Stack">
       <UniqueIdentifier>{482f4d2b-3141-40c6-a6b3-31ca69024005}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\연습문제">
+      <UniqueIdentifier>{49332b8e-c55e-4df7-9449-b3e42125d140}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\yws\Desktop\DataStruct\DataStruct\DataStruct\chapter4.c">
+    <ClCompile Include="연습문제\chapter3.c">
       <Filter>소스 파일\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\yws\Desktop\DataStruct\DataStruct\DataStruct\chapter5.c">
+    <ClCompile Include="연습문제\chapter4.c">
       <Filter>소스 파일\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\yws\Desktop\DataStruct\DataStruct\DataStruct\chapter6.c">
+    <ClCompile Include="연습문제\chapter5.c">
       <Filter>소스 파일\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\yws\Desktop\DataStruct\DataStruct\DataStruct\chapter7.c">
+    <ClCompile Include="연습문제\chapter6.c">
       <Filter>소스 파일\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\yws\Desktop\DataStruct\DataStruct\DataStruct\chapter8.c">
+    <ClCompile Include="연습문제\chapter7.c">
       <Filter>소스 파일\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\yws\Desktop\DataStruct\DataStruct\DataStruct\chapter9.c">
+    <ClCompile Include="연습문제\chapter8.c">
       <Filter>소스 파일\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\yws\Desktop\DataStruct\DataStruct\DataStruct\chapter11.c">
+    <ClCompile Include="연습문제\chapter9.c">
       <Filter>소스 파일\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\yws\Desktop\DataStruct\DataStruct\DataStruct\chapter12.c">
+    <ClCompile Include="연습문제\chapter11.c">
       <Filter>소스 파일\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\yws\Desktop\DataStruct\DataStruct\DataStruct\chapter13.c">
+    <ClCompile Include="연습문제\chapter12.c">
       <Filter>소스 파일\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\yws\Desktop\DataStruct\DataStruct\DataStruct\chapter14.c">
+    <ClCompile Include="연습문제\chapter13.c">
       <Filter>소스 파일\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\yws\Desktop\DataStruct\DataStruct\DataStruct\chapter1.c">
+    <ClCompile Include="연습문제\chapter14.c">
       <Filter>소스 파일\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\yws\Desktop\DataStruct\DataStruct\DataStruct\chapter2.c">
+    <ClCompile Include="연습문제\chapter1.c">
       <Filter>소스 파일\연습문제</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\yws\Desktop\DataStruct\DataStruct\DataStruct\chapter3.c">
+    <ClCompile Include="연습문제\chapter2.c">
       <Filter>소스 파일\연습문제</Filter>
     </ClCompile>
   </ItemGroup>
