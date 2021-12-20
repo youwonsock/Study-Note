@@ -19,6 +19,12 @@
     <Filter Include="소스 파일\연습문제">
       <UniqueIdentifier>{49332b8e-c55e-4df7-9449-b3e42125d140}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Queue">
+      <UniqueIdentifier>{8b30431d-9742-4437-b4be-a2e0e5151362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\List">
+      <UniqueIdentifier>{a57abe78-3b37-421b-9e1f-ba85335acca2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="연습문제\chapter3.c">
@@ -60,5 +66,13 @@
     <ClCompile Include="연습문제\chapter2.c">
       <Filter>소스 파일\연습문제</Filter>
     </ClCompile>
+    <ClCompile Include="List\ArrayList.c">
+      <Filter>소스 파일\List</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="List\ArrayList.h">
+      <Filter>소스 파일\List</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
