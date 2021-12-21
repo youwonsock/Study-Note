@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\List">
       <UniqueIdentifier>{a57abe78-3b37-421b-9e1f-ba85335acca2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Table">
+      <UniqueIdentifier>{c7409469-b48c-42d4-82f9-71e670c2d760}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="연습문제\chapter3.c">
