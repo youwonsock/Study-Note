@@ -16,16 +16,40 @@
     <Filter Include="소스 파일\5장">
       <UniqueIdentifier>{bc58c841-de00-4a30-a138-63498ea8fbc1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\6장">
+      <UniqueIdentifier>{ea6f0e01-cd30-457f-96d4-963911891abb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="예제 5-1 AdderProcess.cpp">
-      <Filter>소스 파일\5장</Filter>
+    <ClCompile Include="예제 6-1 Operation1.cpp">
+      <Filter>소스 파일\6장</Filter>
+    </ClCompile>
+    <ClCompile Include="예제 6-2 Operation2.cpp">
+      <Filter>소스 파일\6장</Filter>
     </ClCompile>
     <ClCompile Include="예제 5-2 CreateProcess.cpp">
       <Filter>소스 파일\5장</Filter>
     </ClCompile>
     <ClCompile Include="예제 5-3 Calculator.cpp">
       <Filter>소스 파일\5장</Filter>
+    </ClCompile>
+    <ClCompile Include="예제 5-1 AdderProcess.cpp">
+      <Filter>소스 파일\5장</Filter>
+    </ClCompile>
+    <ClCompile Include="예제 6-3 KerObjShare.cpp">
+      <Filter>소스 파일\6장</Filter>
+    </ClCompile>
+    <ClCompile Include="예제 6-4 KernelObjProb1.cpp">
+      <Filter>소스 파일\6장</Filter>
+    </ClCompile>
+    <ClCompile Include="예제 6-5 KernelObjProb2.cpp">
+      <Filter>소스 파일\6장</Filter>
+    </ClCompile>
+    <ClCompile Include="예제 6-6 OperationStateParent.cpp">
+      <Filter>소스 파일\6장</Filter>
+    </ClCompile>
+    <ClCompile Include="예제 6-7 OperationStateChild.cpp">
+      <Filter>소스 파일\6장</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

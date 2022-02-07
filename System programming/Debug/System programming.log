@@ -1,5 +1,2 @@
-﻿  예제 5-1 AdderProcess.cpp
-  예제 5-2 CreateProcess.cpp
-  코드를 생성하고 있습니다...
-예제 5-2 CreateProcess.obj : error LNK2005: _wmain이(가) 예제 5-1 AdderProcess.obj에 이미 정의되어 있습니다.
+﻿예제 6-2 Operation2.obj : error LNK2005: _wmain이(가) 예제 6-1 Operation1.obj에 이미 정의되어 있습니다.
 S:\GitHubDesktop\Study-Note\System programming\Debug\System programming.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

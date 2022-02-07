@@ -139,9 +139,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="예제 5-1 AdderProcess.cpp" />
-    <ClCompile Include="예제 5-2 CreateProcess.cpp" />
-    <ClCompile Include="예제 5-3 Calculator.cpp" />
+    <ClCompile Include="예제 5-1 AdderProcess.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="예제 5-2 CreateProcess.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="예제 5-3 Calculator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="예제 6-1 Operation1.cpp" />
+    <ClCompile Include="예제 6-2 Operation2.cpp" />
+    <ClCompile Include="예제 6-3 KerObjShare.cpp" />
+    <ClCompile Include="예제 6-4 KernelObjProb1.cpp" />
+    <ClCompile Include="예제 6-5 KernelObjProb2.cpp" />
+    <ClCompile Include="예제 6-6 OperationStateParent.cpp" />
+    <ClCompile Include="예제 6-7 OperationStateChild.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
