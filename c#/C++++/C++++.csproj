@@ -6,4 +6,31 @@
     <RootNamespace>C____</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Generics\11-1 CopyingArray.cs" />
+    <Compile Remove="Generics\11-2 Generic.cs" />
+    <Compile Remove="Generics\11-3 ConstraintsOnTypeParameters.cs" />
+    <Compile Remove="Generics\11-4 UsingGenericList.cs" />
+    <Compile Remove="Generics\11-5 UsingGenericQueue.cs" />
+    <Compile Remove="Generics\11-6 UsingGenericStack.cs" />
+    <Compile Remove="Generics\11-7 UsingDictionary.cs" />
+    <Compile Remove="Generics\11-8 EnumerableGeneric.cs" />
+    <Compile Remove="LINQ\15-1 From.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Generics\11-7 UsingDictionary.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Generics\11-1 CopyingArray.cs" />
+    <None Include="Generics\11-2 Generic.cs" />
+    <None Include="Generics\11-3 ConstraintsOnTypeParameters.cs" />
+    <None Include="Generics\11-4 UsingGenericList.cs" />
+    <None Include="Generics\11-5 UsingGenericQueue.cs" />
+    <None Include="Generics\11-6 UsingGenericStack.cs" />
+    <None Include="Generics\11-8 EnumerableGeneric.cs" />
+    <None Include="LINQ\15-1 From.cs" />
+  </ItemGroup>
+
 </Project>
