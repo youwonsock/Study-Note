@@ -16,6 +16,16 @@
     <Compile Remove="Generics\11-7 UsingDictionary.cs" />
     <Compile Remove="Generics\11-8 EnumerableGeneric.cs" />
     <Compile Remove="LINQ\15-1 From.cs" />
+    <Compile Remove="LINQ\15-2 SimpleLinq.cs" />
+    <Compile Remove="LINQ\15-3 FromFrom.cs" />
+    <Compile Remove="LINQ\15-4 GroupBy.cs" />
+    <Compile Remove="LINQ\15-5 Join.cs" />
+    <Compile Remove="LINQ\15-6 SimpleLinq.cs" />
+    <Compile Remove="LINQ\15-7 MinMaxAvg.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LINQ\15-5 Join.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +41,11 @@
     <None Include="Generics\11-6 UsingGenericStack.cs" />
     <None Include="Generics\11-8 EnumerableGeneric.cs" />
     <None Include="LINQ\15-1 From.cs" />
+    <None Include="LINQ\15-2 SimpleLinq.cs" />
+    <None Include="LINQ\15-3 FromFrom.cs" />
+    <None Include="LINQ\15-4 GroupBy.cs" />
+    <None Include="LINQ\15-6 SimpleLinq.cs" />
+    <None Include="LINQ\15-7 MinMaxAvg.cs" />
   </ItemGroup>
 
 </Project>
