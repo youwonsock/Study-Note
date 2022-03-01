@@ -1,0 +1,22 @@
+@startuml
+ 
+scale 3
+ 
+skinparam ClassAttributeFontSize ()
+class Dummy {
+    -field1
+    #field2
+    ~method1()
+    +method2()
+}
+
+class Dummy2 {
+    -field1
+    #field2
+    ~method1()
+    +method2()
+}
+
+Dummy->Dummy2
+
+@enduml
