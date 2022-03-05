@@ -22,6 +22,11 @@
     <Compile Remove="LINQ\15-5 Join.cs" />
     <Compile Remove="LINQ\15-6 SimpleLinq.cs" />
     <Compile Remove="LINQ\15-7 MinMaxAvg.cs" />
+    <Compile Remove="Reflection and Attributes\16-1 GetType.cs" />
+    <Compile Remove="Reflection and Attributes\16-2 DynamicInstance.cs" />
+    <Compile Remove="Reflection and Attributes\16-3 EmitTest.cs" />
+    <Compile Remove="Reflection and Attributes\16-4 BasicAttribute.cs" />
+    <Compile Remove="Reflection and Attributes\16-5 CallerInfo.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,6 +51,11 @@
     <None Include="LINQ\15-4 GroupBy.cs" />
     <None Include="LINQ\15-6 SimpleLinq.cs" />
     <None Include="LINQ\15-7 MinMaxAvg.cs" />
+    <None Include="Reflection and Attributes\16-1 GetType.cs" />
+    <None Include="Reflection and Attributes\16-2 DynamicInstance.cs" />
+    <None Include="Reflection and Attributes\16-3 EmitTest.cs" />
+    <None Include="Reflection and Attributes\16-4 BasicAttribute.cs" />
+    <None Include="Reflection and Attributes\16-5 CallerInfo.cs" />
   </ItemGroup>
 
 </Project>
