@@ -29,6 +29,7 @@
     <Compile Remove="Reflection and Attributes\16-5 CallerInfo.cs" />
     <Compile Remove="Reflection and Attributes\16-6  HistoryAttribute.cs" />
     <Compile Remove="Thread and Task\19-1 BasicThread.cs" />
+    <Compile Remove="Thread and Task\19-2 AbortingThread.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -60,6 +61,7 @@
     <None Include="Reflection and Attributes\16-5 CallerInfo.cs" />
     <None Include="Reflection and Attributes\16-6  HistoryAttribute.cs" />
     <None Include="Thread and Task\19-1 BasicThread.cs" />
+    <None Include="Thread and Task\19-2 AbortingThread.cs" />
   </ItemGroup>
 
 </Project>
