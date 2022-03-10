@@ -30,6 +30,10 @@
     <Compile Remove="Reflection and Attributes\16-6  HistoryAttribute.cs" />
     <Compile Remove="Thread and Task\19-1 BasicThread.cs" />
     <Compile Remove="Thread and Task\19-2 AbortingThread.cs" />
+    <Compile Remove="Thread and Task\19-3 UsingThreadState.cs" />
+    <Compile Remove="Thread and Task\19-4 InterruptingThread.cs" />
+    <Compile Remove="Thread and Task\19-5 Synchronize.cs" />
+    <Compile Remove="Thread and Task\19-6 UsingMonitor.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -62,6 +66,10 @@
     <None Include="Reflection and Attributes\16-6  HistoryAttribute.cs" />
     <None Include="Thread and Task\19-1 BasicThread.cs" />
     <None Include="Thread and Task\19-2 AbortingThread.cs" />
+    <None Include="Thread and Task\19-3 UsingThreadState.cs" />
+    <None Include="Thread and Task\19-4 InterruptingThread.cs" />
+    <None Include="Thread and Task\19-5 Synchronize.cs" />
+    <None Include="Thread and Task\19-6 UsingMonitor.cs" />
   </ItemGroup>
 
 </Project>
