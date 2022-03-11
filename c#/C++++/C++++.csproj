@@ -35,6 +35,7 @@
     <Compile Remove="Thread and Task\19-5 Synchronize.cs" />
     <Compile Remove="Thread and Task\19-6 UsingMonitor.cs" />
     <Compile Remove="Thread and Task\19-7 WaitPulse.cs" />
+    <Compile Remove="Thread and Task\19-8 UsingTask.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -72,6 +73,7 @@
     <None Include="Thread and Task\19-5 Synchronize.cs" />
     <None Include="Thread and Task\19-6 UsingMonitor.cs" />
     <None Include="Thread and Task\19-7 WaitPulse.cs" />
+    <None Include="Thread and Task\19-8 UsingTask.cs" />
   </ItemGroup>
 
 </Project>
