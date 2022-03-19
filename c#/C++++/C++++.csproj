@@ -30,6 +30,7 @@
     <Compile Remove="Reflection and Attributes\16-6  HistoryAttribute.cs" />
     <Compile Remove="Thread and Task\19-1 BasicThread.cs" />
     <Compile Remove="Thread and Task\19-10 ParallelLoop.cs" />
+    <Compile Remove="Thread and Task\19-11 Async.cs" />
     <Compile Remove="Thread and Task\19-2 AbortingThread.cs" />
     <Compile Remove="Thread and Task\19-3 UsingThreadState.cs" />
     <Compile Remove="Thread and Task\19-4 InterruptingThread.cs" />
@@ -70,6 +71,7 @@
     <None Include="Reflection and Attributes\16-6  HistoryAttribute.cs" />
     <None Include="Thread and Task\19-1 BasicThread.cs" />
     <None Include="Thread and Task\19-10 ParallelLoop.cs" />
+    <None Include="Thread and Task\19-11 Async.cs" />
     <None Include="Thread and Task\19-2 AbortingThread.cs" />
     <None Include="Thread and Task\19-3 UsingThreadState.cs" />
     <None Include="Thread and Task\19-4 InterruptingThread.cs" />
