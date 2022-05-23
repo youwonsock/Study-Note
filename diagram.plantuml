@@ -1,10 +1,24 @@
-@startuml
-participant Alice
-actor Bob
-ref over Alice, Bob : init
-Alice -> Bob : hello
-ref over Bob
-This can be on
-several lines
-end ref
+@startuml name
+class Simulator
+Simulator : int time
+Simulator : int day
+Simulator : int task
+Simulator : int productNum
+Simulator : int tradingVolume
+Simulator : double cash
+Simulator : double initial_cash
+Simulator : double myTotalAsset
+Simulator : vector<Product*> p
+Simulator : Simulator()
+Simulator : "~"Simulator()
+Simulator : 
+
+class Product
+class Stock
+class Bitcoin
+
+Product o-- Simulator
+Product <|-- Stock
+Product <|-- Bitcoin
+
 @enduml
