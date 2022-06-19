@@ -9,13 +9,54 @@ Simulator : double cash
 Simulator : double initial_cash
 Simulator : double myTotalAsset
 Simulator : vector<Product*> p
+
 Simulator : Simulator()
-Simulator : "~"Simulator()
-Simulator : 
+Simulator : '~'Simulator()
+Simulator : void Start()
+Simulator : void proceed()
+Simulator : void PrintInputError()
+Simulator : void SelectTask()
+Simulator : void FluctuateProducts()
+Simulator : void PrintProducts()
+Simulator : bool Buy()
+Simulator : bool Sell()
+Simulator : double GetTotalAssetsAmount()
 
 class Product
+Product : double price
+Product : int quantity
+Product : int rate
+Product : int rateOfChange
+Product : string name
+
+Product : Product(string name, double price)
+Product : '~'Product()
+Product : virtual void fluctuate(int time)
+Product : virtual void print()
+Product : bool BuyProduct(int productNum, int tradingVolume, double& cash)
+Product : bool SellProduct(int productNum, int tradingVolume, double& cash)
+Product : double GetAssetAmount()
+Product : void setPrice(double price)
+Product : void setQuantity(int quantity)
+Product : void setRate(int rate)
+Product : void setName(string name)
+Product : double getPrice() const
+Product : int getQuantity() const
+Product : int getRate() const
+Product : string getName() const
+
 class Stock
+Stock : Stock(string name,double price)
+Stock : '~'Stock()
+Stock : virtual void fluctuate(int time) override
+Stock : virtual void print() override
+
 class Bitcoin
+Bitcoin : Bitcoin(string name,double price)
+Bitcoin : '~'Bitcoin()
+Bitcoin : virtual void fluctuate(int time) override
+Bitcoin : virtual void print() override
+
 
 Product o-- Simulator
 Product <|-- Stock
