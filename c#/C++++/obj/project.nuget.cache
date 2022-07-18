@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9bq8LMU491CajVmCHGrw10LS8+XDlf2/X7bAHr11KMC94jcrZozNHpcARL0ihqWdSJijESwk8qmc1kzRnr2UrQ==",
+  "dgSpecHash": "yXWTOGW8/IrPsA/1gjeRCZ7o/0FtBC1tu2JevfKoqxg/6teoW4TuAl/EF8qEPhTWpIpvC6hLHtQopvGlNR9xAw==",
   "success": true,
   "projectFilePath": "S:\\GitHubDesktop\\Study-Note\\c#\\C++++\\C++++.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\yws\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

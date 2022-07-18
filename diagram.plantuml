@@ -1,65 +1,84 @@
 @startuml name
-class Simulator
-Simulator : int time
-Simulator : int day
-Simulator : int task
-Simulator : int productNum
-Simulator : int tradingVolume
-Simulator : double cash
-Simulator : double initial_cash
-Simulator : double myTotalAsset
-Simulator : vector<Product*> p
 
-Simulator : Simulator()
-Simulator : '~'Simulator()
-Simulator : void Start()
-Simulator : void proceed()
-Simulator : void PrintInputError()
-Simulator : void SelectTask()
-Simulator : void FluctuateProducts()
-Simulator : void PrintProducts()
-Simulator : bool Buy()
-Simulator : bool Sell()
-Simulator : double GetTotalAssetsAmount()
+' class UpdateManager << (S, #FF7700) Singleton >> 
 
-class Product
-Product : double price
-Product : int quantity
-Product : int rate
-Product : int rateOfChange
-Product : string name
+' class EntityMovement
 
-Product : Product(string name, double price)
-Product : '~'Product()
-Product : virtual void fluctuate(int time)
-Product : virtual void print()
-Product : bool BuyProduct(int productNum, int tradingVolume, double& cash)
-Product : bool SellProduct(int productNum, int tradingVolume, double& cash)
-Product : double GetAssetAmount()
-Product : void setPrice(double price)
-Product : void setQuantity(int quantity)
-Product : void setRate(int rate)
-Product : void setName(string name)
-Product : double getPrice() const
-Product : int getQuantity() const
-Product : int getRate() const
-Product : string getName() const
+class PlayerInput
 
-class Stock
-Stock : Stock(string name,double price)
-Stock : '~'Stock()
-Stock : virtual void fluctuate(int time) override
-Stock : virtual void print() override
+note left of PlayerWeapon
+    PlayerWeapon.cs는 Weapon.cs 리스트에 
+    Weapon.cs가 삽입되어있는 Prefab을 할당하여 사용합니다.
+end note
+class PlayerWeapon
+{
+    Weapon[] weapons
+}
 
-class Bitcoin
-Bitcoin : Bitcoin(string name,double price)
-Bitcoin : '~'Bitcoin()
-Bitcoin : virtual void fluctuate(int time) override
-Bitcoin : virtual void print() override
+abstract class Entity
 
+class Weapon
 
-Product o-- Simulator
-Product <|-- Stock
-Product <|-- Bitcoin
+class Hammer
+
+' class SMG
+
+' class HandGun
+
+' note left of Item
+' Item.cs에서만 OnTriggerEnter를 정의해두고 하위클래스는 ActWhenTriggerEnter을 
+' override하면 TriggerEnter시 작성한 내용이 실행됩니다.
+' end note
+' abstract class Item
+' {
+'     # virtual void ActWhenTriggerEnter(other);
+' }
+
+note left of Player
+    Player.cs에서 PlayerInput.cs를 통해 Input값을 체크한 뒤 
+    공격키 입력이 들어오면 현제 사용 중인 무기의 Attack() 메서드를
+    호출하여 공격을 실행합니다.
+end note
+class Player
+
+' class Grenade
+' {
+'     # override void ActWhenTriggerEnter(other);
+' }
+
+' class Ammo
+' {
+'     - ItemData itemData
+
+'     # override void ActWhenTriggerEnter(other);
+' }
+
+' class Coin
+' {
+'     - ItemData itemData
+
+'     # override void ActWhenTriggerEnter(other);
+' }
+
+' class Heart
+' {
+'     - ItemData itemData
+
+'     # override void ActWhenTriggerEnter(other);
+' }
+
+' Item <|-- Weapon
+' Weapon <|-- SMG
+' Weapon <|-- HandGun
+Weapon <|-- Hammer
+
+' Item <|-- Grenade
+' Item <|-- Ammo
+' Item <|-- Coin
+' Item <|-- Heart
+
+Entity <|-- Player
+Player *-- PlayerInput
+Player *-- PlayerWeapon
 
 @enduml

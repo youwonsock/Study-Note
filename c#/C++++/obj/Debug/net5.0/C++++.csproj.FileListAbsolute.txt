@@ -3,7 +3,6 @@ S:\GitHubDesktop\Study-Note\c#\C++++\bin\Debug\net5.0\C++++.deps.json
 S:\GitHubDesktop\Study-Note\c#\C++++\bin\Debug\net5.0\C++++.runtimeconfig.json
 S:\GitHubDesktop\Study-Note\c#\C++++\bin\Debug\net5.0\C++++.runtimeconfig.dev.json
 S:\GitHubDesktop\Study-Note\c#\C++++\bin\Debug\net5.0\C++++.dll
-S:\GitHubDesktop\Study-Note\c#\C++++\bin\Debug\net5.0\ref\C++++.dll
 S:\GitHubDesktop\Study-Note\c#\C++++\bin\Debug\net5.0\C++++.pdb
 S:\GitHubDesktop\Study-Note\c#\C++++\obj\Debug\net5.0\C++++.csproj.AssemblyReference.cache
 S:\GitHubDesktop\Study-Note\c#\C++++\obj\Debug\net5.0\C++++.GeneratedMSBuildEditorConfig.editorconfig
@@ -14,3 +13,4 @@ S:\GitHubDesktop\Study-Note\c#\C++++\obj\Debug\net5.0\C++++.dll
 S:\GitHubDesktop\Study-Note\c#\C++++\obj\Debug\net5.0\ref\C++++.dll
 S:\GitHubDesktop\Study-Note\c#\C++++\obj\Debug\net5.0\C++++.pdb
 S:\GitHubDesktop\Study-Note\c#\C++++\obj\Debug\net5.0\C++++.genruntimeconfig.cache
+S:\GitHubDesktop\Study-Note\c#\C++++\obj\Debug\net5.0\refint\C++++.dll
